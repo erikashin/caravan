@@ -2,6 +2,8 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <!-- FontAwesomeの読み込み -->
+    <script src="https://kit.fontawesome.com/be319f48f6.js" crossorigin="anonymous"></script>
     <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" href="style.css" />
     <title>CARAVAN</title>
@@ -15,6 +17,11 @@
           CARAVAN
         </a>
       </h1>
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
     </header>
 
     <!-- navigation -->
@@ -46,7 +53,6 @@
     <main>
       <section class="blog">
         <h2 class="blog-heading">Recent Blogs</h2>
-
         <div class="blog-box">
           <div class="blog-item">
             <img class="blog-image" src="img/forest.jpg" />
@@ -115,18 +121,36 @@
               <span class="category">Culture</span>
             </section>
           </div>
-        </div>      
-      
+        </div>
+        <div class="pagination">
+          <p><<</p>
+          <p><</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>></p>
+          <p>>></p>
+        </div>
       </section>
       <div class="sidebar">
         <section class="popular">
           <h2 class="sidebar-heading common-heading">Popular</h2>
           <div class="sidebar-contents">
-            <p class="popular-text">To solve old problems,<br>study new species</p>
-            <p class="popular-text">Why Earth may someday<br>look like Mars</p>
-            <p class="popular-text">What will humans look<br>like in 100 years?</p>
-            <p class="popular-text">How to grow a forest<br>in your backyard</p>
-            <p class="popular-text">How humans could evolve<br>to survive in space</p>
+            <p class="popular-text">
+              To solve old problems,<br />study new species
+            </p>
+            <p class="popular-text">
+              Why Earth may someday<br />look like Mars
+            </p>
+            <p class="popular-text">
+              What will humans look<br />like in 100 years?
+            </p>
+            <p class="popular-text">
+              How to grow a forest<br />in your backyard
+            </p>
+            <p class="popular-text">
+              How humans could evolve<br />to survive in space
+            </p>
           </div>
         </section>
         <section class="instagram">
@@ -153,8 +177,7 @@
           </div>
         </section>
       </div>
-    
-    </main>    
+    </main>
 
     <!-- footer -->
     <footer>
